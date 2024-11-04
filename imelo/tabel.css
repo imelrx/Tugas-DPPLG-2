@@ -1,0 +1,56 @@
+body {
+    background: url(Soap\ bubbles\ wallpaper.jpg);
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: rgb(196, 164, 238);
+    margin: 6rem auto 0;
+    margin-top: 33px;
+    width: 80%;
+    padding: 1rem;
+    overflow: auto;
+    border: 2px dashed rgb(136, 20, 151);
+    border-radius: 15px;   
+}
+
+h2 {
+    text-align: center;
+    color: black;
+}
+
+table {
+    width: 100%;
+    margin: 20px auto;
+    height: 25hv;
+    border: 2px dashed white;
+}
+
+th, td {
+    color: black;
+    padding: 5.5px;
+    text-align: center;
+    
+}
+
+th:hover {
+    background-color: rgb(134, 247, 90);
+    transition: 0.5s;
+}
+
+td:hover {
+    background-color: rgb(134, 247, 90);
+    transition: 0.5s;
+}
+
+table {
+    width: 100%;
+}
+
+@media (max-width: 600px) {
+    .container {
+        width: 85%;
+    }
+}
